@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('http://www.profilerehab.com/pb/myspace/winter/winter_striped_background.jpg');
+}
+
+#cookie {
+	height: 200px;
+	width: 200px;
+}
+
+#cookie:hover {
+	cursor: pointer;
+}
+
+#cookie:active {
+	cursor: copy;
+}
+
+#producersContainer {
+
+}
+
+.producer {
+	width: 400px;
+	height: 50px;
+	border: 2px solid black;
+	padding: 10px;
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	opacity: 0.5;
+}
+
+
+
+.available {
+	background-color: white;
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+.ribbon-container {
+	position: relative;
+	width: 323px;
+	margin: 0 auto;
+}
+
+.ribbon {
+   width: 323px;
+   position: absolute;
+   text-align: center;
+   font-size: 25px!important;
+   background: #e6db62;
+   /*background: -webkit-gradient(linear, left top, left bottom, from(#e6db62), to(#e6db62));
+   background: -webkit-linear-gradient(top, #e6db62, #e6db62);
+   background: -moz-linear-gradient(top, #e6db62, #e6db62);
+   background: -ms-linear-gradient(top, #e6db62, #e6db62);
+   background: -o-linear-gradient(top, #e6db62, #e6db62);
+   background-image: -ms-linear-gradient(top, #e6db62 0%, #e6db62 100%);
+   -webkit-box-shadow: rgba(000,000,000,0.3) 0 1px 1px;
+   -moz-box-shadow: rgba(000,000,000,0.3) 0 1px 1px;
+   box-shadow: rgba(000,000,000,0.3) 0 1px 1px;*/
+   font-family: 'Pacifico', cursive;
+   }
+.ribbon h1 {
+   font-size: 30px!important;
+   color: #787373;
+   text-shadow: #4a4747 0 1px 0;
+   margin:0px;
+   padding: 15px 10px;
+   }
+.ribbon:before, .ribbon:after {
+   content: '';
+   position: absolute;
+   display: block;
+   bottom: -1em;
+   border: 1.5em solid #ffd773;
+   z-index: -1;
+   }
+.ribbon:before {
+   left: -2em;
+   border-right-width: 1.5em;
+   border-left-color: transparent;
+   -webkit-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+   -moz-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+   box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+   }
+.ribbon:after {
+   right: -2em;
+   border-left-width: 1.5em;
+   border-right-color: transparent;
+   -webkit-box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+   -moz-box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+   box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+   }
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+   border-color: #ffbd4a transparent transparent transparent;
+   position: absolute;
+   display: block;
+   border-style: solid;
+   bottom: -1em;
+   content: '';
+   }
+.ribbon .ribbon-content:before {
+   left: 0;
+   border-width: 1em 0 0 1em;
+   }
+.ribbon .ribbon-content:after {
+   right: 0;
+   border-width: 1em 1em 0 0;
+   }
+.ribbon-stitches-top {
+   margin-top:2px;
+   border-top: 1px dashed rgba(0, 0, 0, 0.2);
+   -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+   -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+   box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5);
+   }
+.ribbon-stitches-bottom {
+   margin-bottom:2px;
+   border-top: 1px dashed rgba(0, 0, 0, 0.2);
+   -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+   -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+   box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
+   }
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+</head>
+<body>
+
+	<div class='ribbon-container'>
+		<div class="ribbon">
+			<div class="ribbon-stitches-top"></div>
+			<div class="ribbon-content">
+				<h1>Cookie Clicker</h1>
+			</div>
+			<div class="ribbon-stitches-bottom"></div>
+		</div>
+	</div>
+	<div>
+		<image src='Cookieimage.png' id='cookie'></image>
+	</div>
+	<div id='counter'>Ilość upieczonych ciastek:
+		<span>0</span> 
+	</div>
+	<div id ='speed'>Ilość pieczonych ciastek na sekundę:
+		<span>0</span>
+	</div>
+	<div id='producersContainer'>
+			<div id='mouse' class='producer' data-price='15' data-pps='0.1' data-amount='0'> 
+				<div class='icon'>Kursor</div>
+				<div class='price'>15</div>
+				<div class='amount'>0</div>
+			</div>
+			<div id='grandma' class='producer' data-price='100' data-pps='1' data-amount='0'>
+				<div class='icon'>Babcia</div>
+				<div class='price'>100</div>
+				<div class='amount'>0</div>
+			</div>
+			<div id='farm' class='producer' data-price='1100' data-pps='8' data-amount='0'>
+				<div class='icon'>Farma</div>
+				<div class='price'>1100</div>
+				<div class='amount'>0</div>
+			</div>
+			<div id='bakery' class='producer' data-price='12000' data-pps='47' data-amount='0'>
+				<div class='icon'>Piekarnia</div>
+				<div class='price'>12000</div>
+				<div class='amount'>0</div>
+			</div>
+				<div id='mine' class='producer' data-price='130000' data-pps='260' data-amount='0'>
+				<div class='icon'>Kopalnia</div>
+				<div class='price'>130000</div>
+				<div class='amount'>0</div>
+			</div>	
+	</div>
+
+	<div id='buttonsContainer'>
+		<button type='button' id='save' class='.button'>Zapisz grę</button>
+		<button type='button' id='delete' class='.button'>Reset</button>
+		
+	</div>
+
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+	<script src='application.js' type='text/javascript'></script> 
+</body>
+</html>
